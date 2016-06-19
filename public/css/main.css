@@ -6,7 +6,83 @@
 
 body {
 	font-family: 'Arial', sans-serif;
-	font-size: 400px;
+	font-size: 14px;
 	color:#fff;
-	background: #333;
+	background-color:#333;
+	line-height:1.6em;
 }
+
+a {
+	color:#fff;
+	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.container {
+	width: 980px;
+	margin: 40px auto;
+	overflow: hidden;
+}
+
+#slider {
+	/*should be the same size as the images, whatever size those images happen to be*/
+	width: 940px;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	padding:3px;
+	border: #666 solid 2px;
+	border-radius: 5px;
+}
+
+#slider img {
+	width: 940px;
+	height: 350px;
+
+}
+
+.slide {
+	position: absolute;
+
+}
+
+.slide-copy {
+	position: absolute;
+	bottom: 0;
+	top: 203px;
+	padding: 20px;
+	background-color: #7f7f7f;
+	background: rgba(0, 0, 0, 0.5);
+	
+}
+
+#prev, #next {
+	float: left;
+	margin-top: 130px;
+	cursor: pointer;
+	position: relative;
+	z-index: 100; 
+}
+
+#prev {
+	margin-right: -52px;
+
+}
+
+#next {
+	margin-left: -52px;
+}
+
+
+
+
+
+
+
+
+
